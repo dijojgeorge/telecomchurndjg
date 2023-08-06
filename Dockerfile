@@ -5,6 +5,6 @@ EXPOSE 8000
 # Install the dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-COPY . /Users/alok/Desktop/BootCamp/Telecom
+COPY . /Users/dijoj/Desktop/BootCamp/telecomchurndjg
 ENTRYPOINT ["python"]
 CMD ["Form_Enduser.py"]
